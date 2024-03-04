@@ -12,7 +12,7 @@ def main():
     # Crear una instancia del cliente de Power BI
     client = models.PowerBIClient(token)
 
-    # Obtener el ID del informe que deseas automatizar (puedes obtenerlo desde la URL del informe)
+    # Obtener el ID del informe (se obtiene desde la URL del informe)
     report_id = "ID_DEL_INFORME"
 
     # Obtener el informe
